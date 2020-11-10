@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37470E87BDCC8DA060F0952B /* Pods_satena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A45E4F3AEF5D26914889DD8 /* Pods_satena.framework */; };
+		6F09B7D82558C9A700B014AE /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F09B7D72558C9A700B014AE /* CardCell.swift */; };
+		6F433F61255971BE00072865 /* DropCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F433F60255971BE00072865 /* DropCell.swift */; };
+		6F4B7F322558139600D3AC0C /* TiquetesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B7F312558139600D3AC0C /* TiquetesViewController.swift */; };
+		6F4B7F36255813D700D3AC0C /* OfertasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B7F35255813D700D3AC0C /* OfertasViewController.swift */; };
+		6F4B7F39255813F400D3AC0C /* OficinasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B7F38255813F400D3AC0C /* OficinasViewController.swift */; };
+		6F4B7F3D2558141200D3AC0C /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B7F3C2558141200D3AC0C /* CheckinViewController.swift */; };
 		6F9ACC4E2557484A00AB561E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ACC4D2557484A00AB561E /* AppDelegate.swift */; };
 		6F9ACC502557484A00AB561E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ACC4F2557484A00AB561E /* SceneDelegate.swift */; };
-		6F9ACC522557484A00AB561E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ACC512557484A00AB561E /* ViewController.swift */; };
+		6F9ACC522557484A00AB561E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9ACC512557484A00AB561E /* HomeViewController.swift */; };
 		6F9ACC552557484A00AB561E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ACC532557484A00AB561E /* Main.storyboard */; };
 		6F9ACC572557484B00AB561E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ACC562557484B00AB561E /* Assets.xcassets */; };
 		6F9ACC5A2557484B00AB561E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ACC582557484B00AB561E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C844919E73211066EAA69A0 /* Pods-satena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-satena.release.xcconfig"; path = "Target Support Files/Pods-satena/Pods-satena.release.xcconfig"; sourceTree = "<group>"; };
+		6F09B7D72558C9A700B014AE /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		6F433F60255971BE00072865 /* DropCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropCell.swift; sourceTree = "<group>"; };
+		6F4B7F312558139600D3AC0C /* TiquetesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiquetesViewController.swift; sourceTree = "<group>"; };
+		6F4B7F35255813D700D3AC0C /* OfertasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertasViewController.swift; sourceTree = "<group>"; };
+		6F4B7F38255813F400D3AC0C /* OficinasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OficinasViewController.swift; sourceTree = "<group>"; };
+		6F4B7F3C2558141200D3AC0C /* CheckinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 		6F9ACC4A2557484A00AB561E /* satena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = satena.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9ACC4D2557484A00AB561E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F9ACC4F2557484A00AB561E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F9ACC512557484A00AB561E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F9ACC512557484A00AB561E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6F9ACC542557484A00AB561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F9ACC562557484B00AB561E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F9ACC592557484B00AB561E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F9ACC5B2557484B00AB561E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A45E4F3AEF5D26914889DD8 /* Pods_satena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_satena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68CF04C04E3508D0A680E87 /* Pods-satena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-satena.debug.xcconfig"; path = "Target Support Files/Pods-satena/Pods-satena.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37470E87BDCC8DA060F0952B /* Pods_satena.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F09B7D62558C92C00B014AE /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				6F09B7D72558C9A700B014AE /* CardCell.swift */,
+				6F433F60255971BE00072865 /* DropCell.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
 		6F9ACC412557484A00AB561E = {
 			isa = PBXGroup;
 			children = (
 				6F9ACC4C2557484A00AB561E /* satena */,
 				6F9ACC4B2557484A00AB561E /* Products */,
+				E009D3EE9D2E6A7AB33EE6B8 /* Pods */,
+				F5715039AEDC259673A09854 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,37 @@
 		6F9ACC4C2557484A00AB561E /* satena */ = {
 			isa = PBXGroup;
 			children = (
+				6F09B7D62558C92C00B014AE /* Objects */,
 				6F9ACC4D2557484A00AB561E /* AppDelegate.swift */,
 				6F9ACC4F2557484A00AB561E /* SceneDelegate.swift */,
-				6F9ACC512557484A00AB561E /* ViewController.swift */,
-				6F9ACC532557484A00AB561E /* Main.storyboard */,
+				6F4B7F3C2558141200D3AC0C /* CheckinViewController.swift */,
+				6F4B7F35255813D700D3AC0C /* OfertasViewController.swift */,
+				6F4B7F312558139600D3AC0C /* TiquetesViewController.swift */,
+				6F4B7F38255813F400D3AC0C /* OficinasViewController.swift */,
+				6F9ACC512557484A00AB561E /* HomeViewController.swift */,
 				6F9ACC562557484B00AB561E /* Assets.xcassets */,
+				6F9ACC532557484A00AB561E /* Main.storyboard */,
 				6F9ACC582557484B00AB561E /* LaunchScreen.storyboard */,
 				6F9ACC5B2557484B00AB561E /* Info.plist */,
 			);
 			path = satena;
+			sourceTree = "<group>";
+		};
+		E009D3EE9D2E6A7AB33EE6B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E68CF04C04E3508D0A680E87 /* Pods-satena.debug.xcconfig */,
+				1C844919E73211066EAA69A0 /* Pods-satena.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5715039AEDC259673A09854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A45E4F3AEF5D26914889DD8 /* Pods_satena.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F9ACC5E2557484B00AB561E /* Build configuration list for PBXNativeTarget "satena" */;
 			buildPhases = (
+				3A8F81C24E67B36E79353347 /* [CP] Check Pods Manifest.lock */,
 				6F9ACC462557484A00AB561E /* Sources */,
 				6F9ACC472557484A00AB561E /* Frameworks */,
 				6F9ACC482557484A00AB561E /* Resources */,
+				7656F6541F64F30AE2673799 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +184,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A8F81C24E67B36E79353347 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-satena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7656F6541F64F30AE2673799 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-satena/Pods-satena-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-satena/Pods-satena-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-satena/Pods-satena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F9ACC462557484A00AB561E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F9ACC522557484A00AB561E /* ViewController.swift in Sources */,
+				6F4B7F39255813F400D3AC0C /* OficinasViewController.swift in Sources */,
+				6F9ACC522557484A00AB561E /* HomeViewController.swift in Sources */,
 				6F9ACC4E2557484A00AB561E /* AppDelegate.swift in Sources */,
+				6F09B7D82558C9A700B014AE /* CardCell.swift in Sources */,
+				6F4B7F3D2558141200D3AC0C /* CheckinViewController.swift in Sources */,
+				6F4B7F36255813D700D3AC0C /* OfertasViewController.swift in Sources */,
+				6F433F61255971BE00072865 /* DropCell.swift in Sources */,
+				6F4B7F322558139600D3AC0C /* TiquetesViewController.swift in Sources */,
 				6F9ACC502557484A00AB561E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +383,7 @@
 		};
 		6F9ACC5F2557484B00AB561E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68CF04C04E3508D0A680E87 /* Pods-satena.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +394,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.absatena.satena;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -302,6 +404,7 @@
 		};
 		6F9ACC602557484B00AB561E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C844919E73211066EAA69A0 /* Pods-satena.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 6.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.absatena.satena;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
